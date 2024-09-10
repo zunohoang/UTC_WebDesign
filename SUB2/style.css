@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #256fb5;
+    background-color: #a5c3e0;
+    padding: 2px;
+    margin: 0;
+}
+
+.text-blue {
+    color: #256fb5;
+}
+
+.HCI {
+    font-family: fantasy;
+}
+
+/* style.css */
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+.w-full {
+    flex-grow: 1;
+}
+
+.flex img {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.interests {
+    margin-top: 20px;
+}
