@@ -23,7 +23,6 @@
     width: 15%;
     box-sizing: border-box;
     margin: 0;
-    /* padding-top: 10px; */
 }
 
 .navbar ul li {
@@ -58,4 +57,61 @@
     background-color: #82A97E;
     height: 200px;
     width: 100%;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        width: 20%;
+    }
+
+    .main {
+        width: 60%;
+    }
+
+    .ads {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        min-width: auto;
+    }
+
+    .ads {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 5px;
+        height: auto;
+    }
+
+    .navbar ul li {
+        font-size: 20px;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    .ads {
+        display: none;
+    }
 }
