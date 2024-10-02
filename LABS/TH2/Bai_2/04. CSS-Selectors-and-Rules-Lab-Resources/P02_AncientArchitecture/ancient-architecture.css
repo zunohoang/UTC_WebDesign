@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e2d7aa;
+    color: #000000;
+    font-size: 16px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: 450px;
+}
+
+.image-container {
+    width: 1100px;
+    height: 450px;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 65px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 65px;
+    font-weight: 200;
+}
+
+nav {
+    margin: 30px;
+}
+
+nav a {
+    font-size: 28px;
+    color: #000000;
+}
+
+a {
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+.article-image {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+p:first-letter {
+    font-family: 'EucrosiaUPC', sans-serif;
+    font-size: 40px;
+}
+
+span a {
+    background: url(images/bg2.jpg);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li:nth-of-type(1) a {
+    font-weight: bold !important;
+    color: #0a2d4a;
+}
+
+nav ul li:nth-of-type(7) a {
+    font-weight: bold !important;
+    color: #0a2d4a;
+}
+
+article img {
+    width: 100%;
+    height: 230px;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article h3 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.t {
+    height: 300px;
+}
+
+span.comments a::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('./images/comment.png');
+    background-size: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
