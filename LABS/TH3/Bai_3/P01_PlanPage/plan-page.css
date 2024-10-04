@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-image: url('./images/plan-page.jpg');
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #262626;
+    display: inline-block;
+    margin: 80px 20px 0 20px;
+    border: 5px solid hsl(0, 0%, 26%);
+    color: #a1a1a1;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+article h1 {
+    font-size: 1.5em;
+    color: #FFF;
+    padding: 10px;
+}
+
+p.price {
+    font-size: 3em;
+    font-weight: 700;
+    color: #27dcc4;
+    padding: 20px;
+}
+
+p:not(.price) {
+    padding: 10px;
+}
+
+ul {
+    padding: 10px;
+}
+
+button {
+    background-color: #27ddc4;
+    color: #FFF;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #ACACAC;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
